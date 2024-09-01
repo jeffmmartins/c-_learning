@@ -1,0 +1,15 @@
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\bin\Debug\net8.0\estrutura_do_projeto.exe
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\bin\Debug\net8.0\estrutura_do_projeto.deps.json
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\bin\Debug\net8.0\estrutura_do_projeto.runtimeconfig.json
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\bin\Debug\net8.0\estrutura_do_projeto.dll
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\bin\Debug\net8.0\estrutura_do_projeto.pdb
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.AssemblyInfoInputs.cache
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.AssemblyInfo.cs
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.sourcelink.json
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.dll
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\refint\estrutura_do_projeto.dll
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.pdb
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\estrutura_do_projeto.genruntimeconfig.cache
+C:\Users\Jefferson\Documents\c#_fulstack\estrutura_do_projeto\obj\Debug\net8.0\ref\estrutura_do_projeto.dll
