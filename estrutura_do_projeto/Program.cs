@@ -6,6 +6,16 @@ int idade = 36;
 
 double altura = 1.90;
 
+decimal preco = 2.80M; 
+
+bool condicao = true;
+
+Console.WriteLine(apresentação);
+Console.WriteLine("o valor da variavel idade: " + idade);
+Console.WriteLine("o valor da variavel Altura: " + altura.ToString("0.00"));
+Console.WriteLine("o valor da variavel preco: " + preco);
+Console.WriteLine("o valor da variavel condição: " + condicao);
+
 
 /*Pessoa p = new Pessoa();
 
