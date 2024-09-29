@@ -1,6 +1,11 @@
 ﻿using estrutura_do_projeto.Models;
 
-string apresentação = "olá seja bem vindo"; // variavel
+DateTime dataAtual = DateTime.Now.AddDays(5);
+
+Console.WriteLine(dataAtual);
+
+
+/*string apresentação = "olá seja bem vindo"; // variavel
 
 int idade = 36;
 
@@ -17,7 +22,7 @@ Console.WriteLine("o valor da variavel preco: " + preco);
 Console.WriteLine("o valor da variavel condição: " + condicao);
 
 
-/*Pessoa p = new Pessoa();
+Pessoa p = new Pessoa();
 
 p.Nome = "Jeff";
 p.Idade = 36;
