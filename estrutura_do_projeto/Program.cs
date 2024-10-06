@@ -1,8 +1,12 @@
 ﻿using estrutura_do_projeto.Models;
 
-// cast - casting 
-int a = Convert.ToInt32("5");
+int inteiro = 5;
+string a = inteiro.ToString();
 Console.WriteLine(a);
+
+// cast - casting 
+//int a = Convert.ToInt32("5");
+//Console.WriteLine(a);
 
 /*int a = 10;
 int b = 20;
