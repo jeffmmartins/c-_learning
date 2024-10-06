@@ -1,8 +1,16 @@
 ﻿using estrutura_do_projeto.Models;
 
-int inteiro = 5;
-string a = inteiro.ToString();
-Console.WriteLine(a);
+string a = "15-";
+int b = 0;
+
+int.TryParse(a, out b);
+
+Console.WriteLine(b);
+
+
+//int inteiro = 5;
+//string a = inteiro.ToString();
+//Console.WriteLine(a);
 
 // cast - casting 
 //int a = Convert.ToInt32("5");
