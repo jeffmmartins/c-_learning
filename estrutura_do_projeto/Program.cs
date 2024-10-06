@@ -2,8 +2,13 @@
 
 int quantidadeEstoque = 3;
 int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEstoque >= quantidadeCompra;
 
-if(quantidadeEstoque >= quantidadeCompra) {
+Console.WriteLine($"Valor em estoque: {quantidadeEstoque}");
+Console.WriteLine($"Qunatidade disponivel para compras: {quantidadeCompra}");
+Console.WriteLine($"è possivel realizar a venda: {possivelVenda}");
+
+if(possivelVenda) {
     Console.WriteLine("Venda realizada com sucesso");
 } else {
     Console.WriteLine("Não tem produto em estoque");
