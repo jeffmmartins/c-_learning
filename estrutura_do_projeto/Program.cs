@@ -1,11 +1,20 @@
 ﻿using estrutura_do_projeto.Models;
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
+
+int a = 10;
+int b = 20;
+int c = a + b;
+
+c += 5;
+
+Console.WriteLine(c);
+
+/*DateTime dataAtual = DateTime.Now.AddDays(5);
 
 Console.WriteLine(dataAtual);
 
 
-/*string apresentação = "olá seja bem vindo"; // variavel
+string apresentação = "olá seja bem vindo"; // variavel
 
 int idade = 36;
 
