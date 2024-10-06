@@ -1,11 +1,21 @@
 ﻿using estrutura_do_projeto.Models;
 
-string a = "15-";
-int b = 0;
+int quantidadeEstoque = 3;
+int quantidadeCompra = 4;
 
-int.TryParse(a, out b);
+if(quantidadeEstoque >= quantidadeCompra) {
+    Console.WriteLine("Venda realizada com sucesso");
+} else {
+    Console.WriteLine("Não tem produto em estoque");
+}
 
-Console.WriteLine(b);
+
+//string a = "15-";
+//int b = 0;
+
+//int.TryParse(a, out b);
+
+//Console.WriteLine(b);
 
 
 //int inteiro = 5;
