@@ -1,6 +1,19 @@
 ﻿using estrutura_do_projeto.Models;
 
-Console.WriteLine("Digite uma letra: ");
+bool ehMaiorDeIdade = false;
+bool possivelAutorizacaoResponsavel = false;
+
+if(ehMaiorDeIdade || possivelAutorizacaoResponsavel) {
+    Console.WriteLine("É maior de idade");
+}else {
+    Console.WriteLine("Não é maior de idade");
+}
+
+
+
+
+
+/*Console.WriteLine("Digite uma letra: ");
 string letra = Console.ReadLine();
 
 switch (letra){
@@ -15,7 +28,7 @@ switch (letra){
         Console.WriteLine("Não é uma vogal");
         break;
 }
-
+*/
 
 
 
