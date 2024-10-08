@@ -1,14 +1,16 @@
 ﻿using estrutura_do_projeto.Models;
 
 int quantidadeEstoque = 3;
-int quantidadeCompra = 4;
+int quantidadeCompra = 0;
 bool possivelVenda = quantidadeEstoque >= quantidadeCompra;
 
 Console.WriteLine($"Valor em estoque: {quantidadeEstoque}");
 Console.WriteLine($"Qunatidade disponivel para compras: {quantidadeCompra}");
 Console.WriteLine($"è possivel realizar a venda: {possivelVenda}");
 
-if(possivelVenda) {
+if(quantidadeCompra == 0) {
+    Console.WriteLine("Venda Invalida");
+}else if(possivelVenda) {
     Console.WriteLine("Venda realizada com sucesso");
 } else {
     Console.WriteLine("Não tem produto em estoque");
