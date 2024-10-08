@@ -1,8 +1,27 @@
 ﻿using estrutura_do_projeto.Models;
 
-int quantidadeEstoque = 3;
+Console.WriteLine("Digite uma letra: ");
+string letra = Console.ReadLine();
+
+switch (letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("é uam vogal");
+        break;
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
+}
+
+
+
+
+/*int quantidadeEstoque = 3;
 int quantidadeCompra = 0;
-bool possivelVenda = quantidadeEstoque >= quantidadeCompra;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEstoque >= quantidadeCompra;
 
 Console.WriteLine($"Valor em estoque: {quantidadeEstoque}");
 Console.WriteLine($"Qunatidade disponivel para compras: {quantidadeCompra}");
@@ -14,7 +33,7 @@ if(quantidadeCompra == 0) {
     Console.WriteLine("Venda realizada com sucesso");
 } else {
     Console.WriteLine("Não tem produto em estoque");
-}
+}*/
 
 
 //string a = "15-";
