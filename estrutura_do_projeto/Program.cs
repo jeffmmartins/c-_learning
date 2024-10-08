@@ -1,6 +1,17 @@
 ﻿using estrutura_do_projeto.Models;
 
-bool ehMaiorDeIdade = false;
+bool presencaMinima = true;
+double media = 6.0;
+
+if(presencaMinima && media >= 7){
+    Console.WriteLine("Aprovado");
+}else {
+    Console.WriteLine("Reprovado");
+}
+
+
+
+/* bool ehMaiorDeIdade = false;
 bool possivelAutorizacaoResponsavel = false;
 
 if(ehMaiorDeIdade || possivelAutorizacaoResponsavel) {
@@ -8,6 +19,7 @@ if(ehMaiorDeIdade || possivelAutorizacaoResponsavel) {
 }else {
     Console.WriteLine("Não é maior de idade");
 }
+*/
 
 
 
