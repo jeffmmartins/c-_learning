@@ -22,5 +22,10 @@ namespace estrutura_do_projeto.Models
         public void Divisão (int a, int b){
             Console.WriteLine($"{a} / {b} = {a / b}");
         }
+
+        public void Potencia (int a, int b){
+            double pot = Math.Pow(a, b);
+            Console.WriteLine($"{a}^{b} = {pot}");
+        }
     }
 }

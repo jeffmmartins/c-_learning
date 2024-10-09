@@ -7,6 +7,7 @@ calc.Somar(1,1);
 calc.Divisão(2,2);
 calc.Multiplicar(10,14);
 calc.Subtrair(10, 5);
+calc.Potencia(3,3);
 
 
 /*bool presencaMinima = true;
