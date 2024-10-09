@@ -27,5 +27,24 @@ namespace estrutura_do_projeto.Models
             double pot = Math.Pow(a, b);
             Console.WriteLine($"{a}^{b} = {pot}");
         }
+
+        public void Seno (double angulo){
+            double radiano = angulo * Math.PI / 180;
+            double seno = Math.Sin(radiano);
+            Console.WriteLine($"O valor do seno é: {seno}");
+        }
+
+        public void Coseno (double angulo){
+            double radiano = angulo * Math.PI / 180;
+            double coseno = Math.Cos(radiano);
+            Console.WriteLine($"O valor do seno é: {Math.Round(coseno,4)}");
+        }
+
+        public void Tangete (double angulo){
+            double radiano = angulo * Math.PI / 180;
+            double tangete = Math.Tan(radiano);
+            Console.WriteLine($"O valor do seno é: {tangete}");
+        }
+    
     }
 }

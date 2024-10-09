@@ -8,6 +8,9 @@ calc.Divisão(2,2);
 calc.Multiplicar(10,14);
 calc.Subtrair(10, 5);
 calc.Potencia(3,3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangete(30);
 
 
 /*bool presencaMinima = true;
