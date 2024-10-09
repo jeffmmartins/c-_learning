@@ -1,13 +1,22 @@
 ﻿using estrutura_do_projeto.Models;
 
-bool presencaMinima = true;
+
+Calculadora calc = new Calculadora();
+
+calc.Somar(1,1);
+calc.Divisão(2,2);
+calc.Multiplicar(10,14);
+calc.Subtrair(10, 5);
+
+
+/*bool presencaMinima = true;
 double media = 6.0;
 
 if(presencaMinima && media >= 7){
     Console.WriteLine("Aprovado");
 }else {
     Console.WriteLine("Reprovado");
-}
+}*/
 
 
 
