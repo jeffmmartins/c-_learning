@@ -18,5 +18,9 @@ namespace estrutura_do_projeto.Models
         public void Multiplicar (int a, int b){
             Console.WriteLine($"{a} x {b} = {a * b}");
         }
+
+        public void Divisão (int a, int b){
+            Console.WriteLine($"{a} / {b} = {a / b}");
+        }
     }
 }
