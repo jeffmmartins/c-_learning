@@ -7,8 +7,12 @@ namespace estrutura_do_projeto.Models
 {
     public class Calculadora
     {
-        public void somar (int a, int b){
+        public void Somar (int a, int b){
             Console.WriteLine($"{a} + {b} = {a + b}");
+        }
+
+        public void Subtrair (int a, int b){
+            Console.WriteLine($"{a} - {b} = {a - b}");
         }
     }
 }
