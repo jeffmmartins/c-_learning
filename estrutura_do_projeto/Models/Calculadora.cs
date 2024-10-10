@@ -45,6 +45,11 @@ namespace estrutura_do_projeto.Models
             double tangete = Math.Tan(radiano);
             Console.WriteLine($"O valor do seno é: {tangete}");
         }
+
+        public void RaizaQuadrada (double x){
+            double raiz = Math.Sqrt(x);
+            Console.WriteLine($"Raiz quadrada de {x} é: {raiz}");
+        }
     
     }
 }

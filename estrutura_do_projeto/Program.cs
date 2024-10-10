@@ -9,7 +9,9 @@ Console.WriteLine(numero);
 
 
 
-/*Calculadora calc = new Calculadora();
+
+
+Calculadora calc = new Calculadora();
 
 calc.Somar(1,1);
 calc.Divisão(2,2);
@@ -19,7 +21,7 @@ calc.Potencia(3,3);
 calc.Seno(30);
 calc.Coseno(30);
 calc.Tangete(30);
-*/
+calc.RaizaQuadrada(9);
 
 /*bool presencaMinima = true;
 double media = 6.0;
