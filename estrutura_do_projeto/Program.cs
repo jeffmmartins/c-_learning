@@ -1,12 +1,22 @@
 ﻿using estrutura_do_projeto.Models;
 
 int numero = 5;
+int contador = 0;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+/* 
+int numero = 5;
 
 for (int i = 0; i <= 10; i++)
 {
     Console.WriteLine($"{numero} x {i} = {numero * i}");
 }
-
+*/
 
 /*int numero = 10;
 
