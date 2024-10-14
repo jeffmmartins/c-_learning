@@ -1,6 +1,43 @@
 ﻿using estrutura_do_projeto.Models;
 
-int soma=0;
+string opcao;
+
+while (true)
+{
+    
+    Console.WriteLine("Escolha uma opção");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch (opcao)
+    {
+        case "1":
+        Console.WriteLine("Cliente cadastrado");
+        break;
+        case "2":
+        Console.WriteLine("Busca de cliente");
+        break;
+        case "3":
+        Console.WriteLine("Cliente apagado");
+        break;
+        case "4":
+        Console.WriteLine("Programa Encerrado");
+        Environment.Exit(0);
+        break;
+        default:
+        Console.WriteLine("Opção invalida");
+        break;
+    }
+
+}
+
+
+
+/*int soma=0;
 int numero = 0;
 
 do
@@ -12,7 +49,7 @@ do
 } while (numero != 0);
 
 Console.WriteLine($"O resultado é: {soma}");
-
+*/
 /*int numero = 5;
 int contador = 0;
 
