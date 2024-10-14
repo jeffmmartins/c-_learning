@@ -1,6 +1,19 @@
 ﻿using estrutura_do_projeto.Models;
 
-int numero = 5;
+int soma=0;
+int numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um número, Caso digite 0 sai do progroma");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero;
+} while (numero != 0);
+
+Console.WriteLine($"O resultado é: {soma}");
+
+/*int numero = 5;
 int contador = 0;
 
 while (contador <= 10)
@@ -8,6 +21,7 @@ while (contador <= 10)
     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
     contador++;
 }
+*/
 
 /* 
 int numero = 5;
