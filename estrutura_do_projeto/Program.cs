@@ -28,6 +28,10 @@ while (true)
         Console.WriteLine("Programa Encerrado");
         Environment.Exit(0);
         break;
+        case "5":
+        Console.WriteLine("Programa Encerrado");
+        Environment.Exit(0);
+        break;
         default:
         Console.WriteLine("Opção invalida");
         break;
