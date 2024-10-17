@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "estrutura_do_projeto", "est
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploFundamentos.Common", "ExemploFundamentos.Common\ExemploFundamentos.Common.csproj", "{0A7DB7E7-FD23-4B8C-8024-86E0ACF7736D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplofundamentos", "exemplofundamentos\exemplofundamentos.csproj", "{F947E821-A24D-482F-A3F7-CE84EBD8FBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0A7DB7E7-FD23-4B8C-8024-86E0ACF7736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A7DB7E7-FD23-4B8C-8024-86E0ACF7736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A7DB7E7-FD23-4B8C-8024-86E0ACF7736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F947E821-A24D-482F-A3F7-CE84EBD8FBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F947E821-A24D-482F-A3F7-CE84EBD8FBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F947E821-A24D-482F-A3F7-CE84EBD8FBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F947E821-A24D-482F-A3F7-CE84EBD8FBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
