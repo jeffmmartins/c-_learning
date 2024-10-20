@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj": {}
+    "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj": {
+    "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj",
+        "projectUniqueName": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj",
         "projectName": "ArrayeLista",
-        "projectPath": "c:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj",
+        "projectPath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\ArrayeLista.csproj",
         "packagesPath": "C:\\Users\\Jefferson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\obj\\",
+        "outputPath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ArrayeLista\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jefferson\\AppData\\Roaming\\NuGet\\NuGet.Config"
