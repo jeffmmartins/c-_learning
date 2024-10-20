@@ -1,0 +1,15 @@
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\bin\Debug\net8.0\ArrayeLista.exe
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\bin\Debug\net8.0\ArrayeLista.deps.json
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\bin\Debug\net8.0\ArrayeLista.runtimeconfig.json
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\bin\Debug\net8.0\ArrayeLista.dll
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\bin\Debug\net8.0\ArrayeLista.pdb
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.AssemblyInfoInputs.cache
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.AssemblyInfo.cs
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.sourcelink.json
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.dll
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\refint\ArrayeLista.dll
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.pdb
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ArrayeLista.genruntimeconfig.cache
+C:\Users\Jefferson\Documents\c#_fulstack\ArrayeLista\obj\Debug\net8.0\ref\ArrayeLista.dll
