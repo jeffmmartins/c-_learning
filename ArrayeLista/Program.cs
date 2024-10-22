@@ -1,4 +1,16 @@
-﻿int[] arrayDeInteiros = new int [3];
+﻿
+List<string> listaString = new List<string>();
+
+listaString.Add("Sp");
+listaString.Add("Rj");
+listaString.Add("Ce");
+
+for(int contador = 0 ; contador <= listaString.Count; contador++){
+    Console.WriteLine($"Na posição {contador}: {listaString[contador]}");
+}
+
+/* 
+int[] arrayDeInteiros = new int [3];
 
 arrayDeInteiros[0] = 1;
 arrayDeInteiros[1] = 2;
@@ -26,4 +38,4 @@ foreach (int valor in arrayDeInteiros)
     contadorForEach++;
 }
 
-
+*/
