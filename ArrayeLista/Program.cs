@@ -9,6 +9,9 @@ for(int contador = 0; contador < arrayDeInteiros.Length; contador++){
     Console.WriteLine($"Posição {contador}: {arrayDeInteiros[contador]}");
 }
 
+// Redimensionando um Array 
+Array.Resize(ref arrayDeInteiros, arrayDeInteiros.Length * 2);
+
 // Contador com Foreach e manipulando a posição 
 int contadorForEach = 0;
 
