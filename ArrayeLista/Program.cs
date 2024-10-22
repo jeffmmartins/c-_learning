@@ -9,6 +9,11 @@ for(int contador = 0; contador < arrayDeInteiros.Length; contador++){
     Console.WriteLine($"Posição {contador}: {arrayDeInteiros[contador]}");
 }
 
+// Exemplo utilizando o copy
+int [] arrayInteirosDobrados = new int[arrayDeInteiros.Length * 2];
+Array.Copy(arrayDeInteiros, arrayInteirosDobrados, arrayDeInteiros.Length);
+
+
 // Redimensionando um Array 
 Array.Resize(ref arrayDeInteiros, arrayDeInteiros.Length * 2);
 
