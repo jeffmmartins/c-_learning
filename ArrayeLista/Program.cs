@@ -5,10 +5,15 @@ listaString.Add("Sp");
 listaString.Add("Rj");
 listaString.Add("Ce");
 
-for(int contador = 0 ; contador <= listaString.Count; contador++){
+for(int contador = 0 ; contador < listaString.Count; contador++){
     Console.WriteLine($"Na posição {contador}: {listaString[contador]}");
 }
 
+
+foreach (string item in listaString)
+{
+    Console.WriteLine(item);
+}
 /* 
 int[] arrayDeInteiros = new int [3];
 
