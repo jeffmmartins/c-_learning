@@ -36,7 +36,7 @@ namespace ClassePessoa
          }
 
          public string Sobrenome { get; set; }
-         public string NomeCompleto => $"{Nome} {Sobrenome}";
+         public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
         
 
         public void Show(){
