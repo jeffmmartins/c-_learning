@@ -112,7 +112,7 @@ for (int i = 0; i <= 10; i++)
 }
 */
 
-/*int numero = 10;
+int numero = 10;
 
 Console.WriteLine("Incrementando numero");
 numero++;
@@ -134,7 +134,7 @@ calc.Seno(30);
 calc.Coseno(30);
 calc.Tangete(30);
 calc.RaizaQuadrada(9);
-*/
+
 /*bool presencaMinima = true;
 double media = 6.0;
 

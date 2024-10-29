@@ -1,0 +1,5 @@
+C:\Users\Jefferson\Documents\c#_fulstack\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefferson\Documents\c#_fulstack\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Users\Jefferson\Documents\c#_fulstack\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+C:\Users\Jefferson\Documents\c#_fulstack\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson\Documents\c#_fulstack\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
