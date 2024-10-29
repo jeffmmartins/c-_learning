@@ -8,6 +8,7 @@ namespace ClassePessoa
     public class Pessoa
     {
         private string _nome;
+        private int _idade;
 
         public string Nome { 
             get => _nome.ToUpper();
@@ -22,7 +23,17 @@ namespace ClassePessoa
             }
             
             }
-        public int Idade { get; set; }
+        public int Idade 
+        { 
+            get => _idade;
+            set 
+            {
+                if(value < 0){
+                    throw new ArgumentException("A idade nao pode ser menor que zero");
+                }
+                _idade =  value;
+            }
+         }
 
         public void Show(){
             Console.WriteLine($"Nome é {Nome}, idade é {Idade}");
