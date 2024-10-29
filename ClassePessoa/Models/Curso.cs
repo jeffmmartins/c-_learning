@@ -14,5 +14,13 @@ namespace ClassePessoa.Models
         {
             Alunos.add(aluno);
         }
+
+        public int ObterQuantidadeAlunosMatriculados()
+        {
+            int quantidade = Alunos.Count();
+            return quantidade;
+        }
     }
+
+
 }
