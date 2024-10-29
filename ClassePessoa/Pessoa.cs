@@ -35,8 +35,12 @@ namespace ClassePessoa
             }
          }
 
+         public string Sobrenome { get; set; }
+         public string NomeCompleto => $"{Nome} {Sobrenome}";
+        
+
         public void Show(){
-            Console.WriteLine($"Nome é {Nome}, idade é {Idade}");
+            Console.WriteLine($"Nome é {NomeCompleto}, idade é {Idade}");
         }
     }
 }
