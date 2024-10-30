@@ -1,4 +1,5 @@
-﻿using ClassePessoa;
+﻿using ClassePessoa.Models;
+using ClassePessoa;
 
 Pessoa p1 = new Pessoa();
 p1.Nome = "vera";
@@ -7,6 +8,15 @@ p1.Sobrenome = "martins";
 Pessoa p2 = new Pessoa();
 p2.Nome = "eduardo";
 p2.Sobrenome = "mendes";
+
+Curso cursoDeIngles = new Curso();
+cursoDeIngles.Nome = "Ingles";
+cursoDeIngles.Alunos = new List<Pessoa>();
+
+cursoDeIngles.AdicionarAluno(p1);
+cursoDeIngles.AdicionarAluno(p2);
+cursoDeIngles.ListarAlunos();
+
 
 
 

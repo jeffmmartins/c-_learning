@@ -12,7 +12,7 @@ namespace ClassePessoa.Models
 
         public void AdicionarAluno(Pessoa aluno) 
         {
-            Alunos.add(aluno);
+            Alunos.Add(aluno);
         }
 
         public int ObterQuantidadeAlunosMatriculados()
@@ -26,11 +26,11 @@ namespace ClassePessoa.Models
             return Alunos.Remove(aluno);
         }
 
-        public void Adicionaralunos()
+        public void ListarAlunos()
         {
             foreach (Pessoa aluno in Alunos)
             {
-                Console.WriteLina(aluno.NomeCompleto)
+                Console.WriteLine(aluno.NomeCompleto);
             }
         }
     }
