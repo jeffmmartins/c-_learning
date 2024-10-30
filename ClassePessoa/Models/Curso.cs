@@ -20,6 +20,11 @@ namespace ClassePessoa.Models
             int quantidade = Alunos.Count();
             return quantidade;
         }
+
+        public bool RemoverAluno (Pessoa aluno)
+        {
+            return Alunos.Remove(aluno);
+        }
     }
 
 
