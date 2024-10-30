@@ -25,6 +25,14 @@ namespace ClassePessoa.Models
         {
             return Alunos.Remove(aluno);
         }
+
+        public void Adicionaralunos()
+        {
+            foreach (Pessoa aluno in Alunos)
+            {
+                Console.WriteLina(aluno.NomeCompleto)
+            }
+        }
     }
 
 
