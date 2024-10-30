@@ -1,13 +1,11 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "vera";
-p1.Sobrenome = "martins";
+Pessoa p1 = new Pessoa("Vera", "Martins");
 
-Pessoa p2 = new Pessoa();
-p2.Nome = "eduardo";
-p2.Sobrenome = "mendes";
+
+Pessoa p2 = new Pessoa("Eduado", "Mendes");
+
 
 Curso cursoDeIngles = new Curso();
 cursoDeIngles.Nome = "Ingles";
