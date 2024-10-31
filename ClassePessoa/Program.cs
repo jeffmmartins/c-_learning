@@ -1,6 +1,9 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
 
+DateTime data = DateTime.Now;
+Console.WriteLine(data.ToString("dd/mm/yyyy  HH:mm"));
+
 decimal valorMonetario = 82.50M;
 
 Console.WriteLine($"{valorMonetario:c}");
