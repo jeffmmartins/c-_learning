@@ -7,18 +7,18 @@ namespace ClassePessoa
 {
     public class Pessoa
     {
-
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
         
         
         
         private string _nome;
         private int _idade;
 
-        public Pessoa(string nome, string sobrenome)
-        {
-            Nome = nome;
-            Sobrenome =sobrenome;
-        }
+        
 
         public string Nome { 
             get => _nome.ToUpper();

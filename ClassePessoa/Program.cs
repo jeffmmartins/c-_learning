@@ -1,10 +1,14 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
 
-Pessoa p1 = new Pessoa("Vera", "Martins");
+decimal valorMonetario = 82.50M;
+
+Console.WriteLine($"{valorMonetario:c}");
+
+Pessoa p1 = new Pessoa(nome:"Vera", sobrenome:"Martins");
 
 
-Pessoa p2 = new Pessoa("Eduado", "Mendes");
+Pessoa p2 = new Pessoa(nome:"Eduado", sobrenome:"Mendes");
 
 
 Curso cursoDeIngles = new Curso();
