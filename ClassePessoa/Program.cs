@@ -1,12 +1,19 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
-
-string [] linhas = File.ReadAllLines("Arquivo/arquivoLeitura.txt");
+try
+{
+    string [] linhas = File.ReadAllLines("Arquivo/arquivo_Leitura.txt");
 
 foreach (string linha in linhas)
 {
     Console.WriteLine(linha);
 }
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Messagem de erro generica {ex.Message} ");
+}
+
 
 
 
