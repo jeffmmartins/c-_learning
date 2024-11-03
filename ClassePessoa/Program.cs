@@ -1,7 +1,17 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
 
-DateTime data = DateTime.Now;
+string [] linhas = File.ReadAllLines("Arquivo/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+
+
+
+/* DateTime data = DateTime.Now;
 Console.WriteLine(data.ToString("dd/mm/yyyy  HH:mm"));
 
 decimal valorMonetario = 82.50M;
@@ -22,7 +32,7 @@ cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.ListarAlunos();
 
-
+*/
 
 
 
