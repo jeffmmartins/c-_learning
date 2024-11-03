@@ -13,7 +13,10 @@ catch (Exception ex)
 {
     Console.WriteLine($"Messagem de erro generica {ex.Message} ");
 }
-
+finally
+{
+    Console.WriteLine("chegou ate aqui");
+}
 
 
 
