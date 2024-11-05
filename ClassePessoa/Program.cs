@@ -1,8 +1,26 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
 
+Queue<int> fila = new Queue<int>(); // criando a fila
+fila.Enqueue(2);
+fila.Enqueue(3);
+fila.Enqueue(5);
+fila.Enqueue(6);
 
-new ExemploExcecao().Metodo1();
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+fila.Dequeue();
+Console.WriteLine("Removendo elemento:" + fila.Dequeue());
+
+foreach (int elementos in fila)
+{
+    Console.WriteLine(elementos);
+}
+
+
+/*new ExemploExcecao().Metodo1();*/
 
 /*try
 {
