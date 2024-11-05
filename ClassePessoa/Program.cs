@@ -1,6 +1,26 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
+using System.Collections;
 
+Stack<int> pilha = new Stack<int>();
+
+pilha.Push(2);
+pilha.Push(3);
+pilha.Push(4);
+pilha.Push(5);
+
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+pilha.Pop();
+
+foreach (int pilhas in pilha)
+{
+    Console.WriteLine("Elementos:" + pilhas);
+}
+/* 
 Queue<int> fila = new Queue<int>(); // criando a fila
 fila.Enqueue(2);
 fila.Enqueue(3);
@@ -18,7 +38,7 @@ foreach (int elementos in fila)
 {
     Console.WriteLine(elementos);
 }
-
+*/
 
 /*new ExemploExcecao().Metodo1();*/
 
