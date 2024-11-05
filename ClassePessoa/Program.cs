@@ -2,6 +2,18 @@
 using ClassePessoa;
 using System.Collections;
 
+Dictionary<string,string> elementos = new Dictionary<string, string>();
+
+elementos.Add("CE", "Ceara");
+elementos.Add("SP", "sao paulo");
+
+foreach (var item in elementos)
+{
+    Console.WriteLine($"valor da chave: {item.Key} e o valor é: {item.Value}");
+}
+
+
+/* 
 Stack<int> pilha = new Stack<int>();
 
 pilha.Push(2);
@@ -20,6 +32,8 @@ foreach (int pilhas in pilha)
 {
     Console.WriteLine("Elementos:" + pilhas);
 }
+*/
+
 /* 
 Queue<int> fila = new Queue<int>(); // criando a fila
 fila.Enqueue(2);
