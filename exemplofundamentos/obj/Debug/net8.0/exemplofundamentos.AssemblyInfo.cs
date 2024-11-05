@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exemplofundamentos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0302b28d99bc9507bc093a561bdf997672168a86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8ef60f15c6d144559435fe1c21aa4b2baa81e71")]
 [assembly: System.Reflection.AssemblyProductAttribute("exemplofundamentos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exemplofundamentos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

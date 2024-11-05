@@ -1,6 +1,10 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
-try
+
+
+new ExemploExcecao().Metodo1();
+
+/*try
 {
     string [] linhas = File.ReadAllLines("Arquivo/arquivo_Leitura.txt");
 
@@ -17,7 +21,7 @@ finally
 {
     Console.WriteLine("chegou ate aqui");
 }
-
+*/
 
 
 
