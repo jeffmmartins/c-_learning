@@ -2,12 +2,17 @@
 using ClassePessoa;
 using System.Collections;
 
-(int, string, string) tupla = (2, "Jeffeson", "Martins");
 
-Console.WriteLine("Id:" + tupla.Item1);
-Console.WriteLine("Nome:" + tupla.Item2);
-Console.WriteLine("Sobrenome:" + tupla.Item3);
 
+
+
+/* 
+(int id, string nome, string sobrenome) tupla = (2, "Jeffeson", "Martins");
+
+Console.WriteLine("Id:" + tupla.id);
+Console.WriteLine("Nome:" + tupla.nome);
+Console.WriteLine("Sobrenome:" + tupla.sobrenome);
+*/
 
 /* 
 Dictionary<string,string> elementos = new Dictionary<string, string>();
