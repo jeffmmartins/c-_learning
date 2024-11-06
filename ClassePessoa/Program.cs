@@ -2,15 +2,33 @@
 using ClassePessoa;
 using System.Collections;
 
+(int, string, string) tupla = (2, "Jeffeson", "Martins");
+
+Console.WriteLine("Id:" + tupla.Item1);
+Console.WriteLine("Nome:" + tupla.Item2);
+Console.WriteLine("Sobrenome:" + tupla.Item3);
+
+
+/* 
 Dictionary<string,string> elementos = new Dictionary<string, string>();
 
 elementos.Add("CE", "Ceara");
 elementos.Add("SP", "sao paulo");
+elementos.Add("Rj", "Rio de janeiro");
 
 foreach (var item in elementos)
 {
     Console.WriteLine($"valor da chave: {item.Key} e o valor é: {item.Value}");
 }
+
+elementos.Remove("Rj");
+elementos["CE"] = "Ceara - alterado";
+
+foreach (var item in elementos)
+{
+    Console.WriteLine($"valor da chave: {item.Key} e o valor é: {item.Value}");
+}
+*/
 
 
 /* 
