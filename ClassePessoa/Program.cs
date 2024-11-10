@@ -1,6 +1,7 @@
 ﻿using ClassePessoa.Models;
 using ClassePessoa;
 using System.Collections;
+using System.Reflection.Metadata;
 
 LeituraDeAqruivo arquivo = new LeituraDeAqruivo();
 
@@ -20,6 +21,13 @@ else
 }
 
 
+// Ternario 
+int numero = 2;
+bool ehpar = false;
+
+ehpar = numero % 2 == 0;
+
+Console.WriteLine($"O numero {numero} é: " + (ehpar? "par" : "impar" ));
 
 /* 
 (int id, string nome, string sobrenome) tupla = (2, "Jeffeson", "Martins");
