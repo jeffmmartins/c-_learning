@@ -2,7 +2,22 @@
 using ClassePessoa;
 using System.Collections;
 
+LeituraDeAqruivo arquivo = new LeituraDeAqruivo();
 
+var (Sucesso, Linhas, Qtde) = arquivo.LerArquivo("Arquivo/arquivoLeitura.txt");
+
+if (Sucesso)
+{
+    Console.WriteLine("QTE de linhas: " + Qtde);
+    foreach (var linha in Linhas)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Ocoorreu um erro");
+}
 
 
 
