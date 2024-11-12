@@ -2,7 +2,19 @@
 using ClassePessoa;
 using System.Collections;
 using System.Reflection.Metadata;
+using Newtonsoft.Json;
+{
+    
+}
 
+Venda vendas = new Venda(1, "Relogio", 25.00M);
+
+string serializando = JsonConvert.SerializeObject(vendas);
+
+Console.WriteLine(serializando);
+
+
+/* 
 LeituraDeAqruivo arquivo = new LeituraDeAqruivo();
 
 var (Sucesso, Linhas, Qtde) = arquivo.LerArquivo("Arquivo/arquivoLeitura.txt");
@@ -28,7 +40,7 @@ bool ehpar = false;
 ehpar = numero % 2 == 0;
 
 Console.WriteLine($"O numero {numero} é: " + (ehpar? "par" : "impar" ));
-
+*/
 /* 
 (int id, string nome, string sobrenome) tupla = (2, "Jeffeson", "Martins");
 

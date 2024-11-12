@@ -13,3 +13,6 @@ C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\obj\Debug\net8.0\refint\Cl
 C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\obj\Debug\net8.0\ClassePessoa.pdb
 C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\obj\Debug\net8.0\ClassePessoa.genruntimeconfig.cache
 C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\obj\Debug\net8.0\ref\ClassePessoa.dll
+C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\obj\Debug\net8.0\ClassePessoa.csproj.AssemblyReference.cache
+C:\Users\Jefferson\Documents\c#_fulstack\ClassePessoa\obj\Debug\net8.0\ClassePe.4E1B30FA.Up2Date
