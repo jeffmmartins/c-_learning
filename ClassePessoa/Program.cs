@@ -11,6 +11,7 @@ Venda vendas = new Venda(1, "Relogio", 25.00M);
 
 string serializando = JsonConvert.SerializeObject(vendas);
 
+File.WriteAllText("Arquivo/vendas.json", serializando);
 Console.WriteLine(serializando);
 
 
