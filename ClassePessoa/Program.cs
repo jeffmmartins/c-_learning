@@ -3,13 +3,18 @@ using ClassePessoa;
 using System.Collections;
 using System.Reflection.Metadata;
 using Newtonsoft.Json;
-{
-    
-}
 
-Venda vendas = new Venda(1, "Relogio", 25.00M);
+DateTime dataAtual = DateTime.Now;
 
-string serializando = JsonConvert.SerializeObject(vendas);
+List<Venda> ListaVendas = new List<Venda>();
+
+Venda vendas = new Venda(1, "Relogio", 25.00M, dataAtual);
+Venda vendas1 = new Venda(2, "Relogio", 15.00M, dataAtual);
+
+ListaVendas.Add(vendas);
+ListaVendas.Add(vendas1);
+
+string serializando = JsonConvert.SerializeObject(ListaVendas);
 
 File.WriteAllText("Arquivo/vendas.json", serializando);
 Console.WriteLine(serializando);
