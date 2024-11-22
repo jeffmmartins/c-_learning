@@ -1,5 +1,15 @@
 ﻿using ExemploPOO.Models;
 
+Aluno aluno1 = new Aluno();
+
+aluno1.Nome = "Jeff";
+aluno1.Idade = 26;
+aluno1.Apresentar();
+
+
+
+
+
 ContaCorrente conta = new ContaCorrente("123", 1000);
 
 conta.ExibirSaldo();
