@@ -1,9 +1,19 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interface;
+using ExemploPOO.Models;
+
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.multiplicar(3,3));
+
+
+/* 
+Computador c1 = new Computador();
+
 
 Corrente c = new Corrente();
 
 c.Creditar(300);
 c.ExibirValor();
+*/
 /* 
 Aluno aluno1 = new Aluno();
 
