@@ -1,5 +1,10 @@
 ﻿using ExemploPOO.Models;
 
+Corrente c = new Corrente();
+
+c.Creditar(300);
+c.ExibirValor();
+/* 
 Aluno aluno1 = new Aluno();
 
 aluno1.Nome = "Jeff";
@@ -23,7 +28,7 @@ conta.Sacar(100);
 conta.ExibirSaldo();
 
 
-
+*/
 
 
 
