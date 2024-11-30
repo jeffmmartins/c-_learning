@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zk5lglHFHo8=",
+  "dgSpecHash": "Ln0yf6n/HMA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloApi\\ModuloAPI.csproj",
+  "projectFilePath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloaPI\\ModuloAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jefferson\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.8\\microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "C:\\Users\\Jefferson\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

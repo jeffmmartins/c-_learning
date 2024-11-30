@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloApi\\ModuloAPI.csproj": {}
+    "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloaPI\\ModuloAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloApi\\ModuloAPI.csproj": {
+    "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloaPI\\ModuloAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloApi\\ModuloAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloaPI\\ModuloAPI.csproj",
         "projectName": "ModuloAPI",
-        "projectPath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloApi\\ModuloAPI.csproj",
+        "projectPath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloaPI\\ModuloAPI.csproj",
         "packagesPath": "C:\\Users\\Jefferson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloApi\\obj\\",
+        "outputPath": "C:\\Users\\Jefferson\\Documents\\c#_fulstack\\ModuloaPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jefferson\\AppData\\Roaming\\NuGet\\NuGet.Config"
